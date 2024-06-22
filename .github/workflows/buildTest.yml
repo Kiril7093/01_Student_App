@@ -21,5 +21,4 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-    - name: Rub integration tests
-      run: npm test
+    - run: npm test
