@@ -24,11 +24,6 @@ jobs:
     - name: Rub integration tests
       run: npm run test-npm-security
 
-
-
-
-
-
   integration_test:
     runs-on: ubuntu-latest
     needs: npm_security_test
